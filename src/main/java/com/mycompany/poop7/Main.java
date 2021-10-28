@@ -42,6 +42,27 @@ public class Main {
         if(ger instanceof Object){
             System.out.println("Gerente es instancia de Object");
         }
+        System.out.println("#############Actividad#############");
+        Ballena ball=new Ballena(15,3,"Willy","Pacífico Norte","Azul");
+        ball.nadar("el océano");
+        ball.comer("Krill");
+        ball.sonido("*grita en Cetáceo*");
+        ball.pelearConPinocho();
+        System.out.println(ball);
+        
+        Perro perr=new Perro("Rojo",7, "Filomeno", "Europa","Café");
+        perr.correr("el parque");
+        perr.comer("Croquetas");
+        perr.sonido("guau");
+        perr.hacerTrucos("dar la pata");
+        System.out.println(perr);
+        
+        Pajaro paj=new Pajaro("Granívoro",2,"Fred","Australia","verde");
+        paj.comer("Semillas");
+        paj.sonido("*Trinidos*");
+        paj.volar("un valle");
+        paj.recolectarRamas();
+        System.out.println(paj);
     }   
     
 }
